@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taqwa-web/static/css/main.2bea1219.css",
-    "main.js": "/taqwa-web/static/js/main.90b04c20.js",
+    "main.js": "/taqwa-web/static/js/main.bdb06670.js",
     "static/media/gr-stocks-YNJmz4O9py4-unsplash.jpg": "/taqwa-web/static/media/gr-stocks-YNJmz4O9py4-unsplash.508ae286d09d02ddafd7.jpg",
     "static/media/22170.jpg": "/taqwa-web/static/media/22170.d32f28369928dc6c712f.jpg",
     "static/media/398f1fc1-image-1.jpg": "/taqwa-web/static/media/398f1fc1-image-1.e21a94ad095c0d929c09.jpg",
@@ -16,10 +16,10 @@
     "static/media/facebook-svgrepo-com (1).svg": "/taqwa-web/static/media/facebook-svgrepo-com (1).afb9a72522eea05ce1a898f3be7e7511.svg",
     "index.html": "/taqwa-web/index.html",
     "main.2bea1219.css.map": "/taqwa-web/static/css/main.2bea1219.css.map",
-    "main.90b04c20.js.map": "/taqwa-web/static/js/main.90b04c20.js.map"
+    "main.bdb06670.js.map": "/taqwa-web/static/js/main.bdb06670.js.map"
   },
   "entrypoints": [
     "static/css/main.2bea1219.css",
-    "static/js/main.90b04c20.js"
+    "static/js/main.bdb06670.js"
   ]
 }
