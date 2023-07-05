@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/taqwa-web/static/css/main.2bea1219.css",
+    "main.js": "/taqwa-web/static/js/main.94233671.js",
+    "static/media/gr-stocks-YNJmz4O9py4-unsplash.jpg": "/taqwa-web/static/media/gr-stocks-YNJmz4O9py4-unsplash.508ae286d09d02ddafd7.jpg",
+    "static/media/22170.jpg": "/taqwa-web/static/media/22170.d32f28369928dc6c712f.jpg",
+    "static/media/398f1fc1-image-1.jpg": "/taqwa-web/static/media/398f1fc1-image-1.e21a94ad095c0d929c09.jpg",
+    "static/media/398f1fc1-image-1 2.jpg": "/taqwa-web/static/media/398f1fc1-image-1 2.9f7f74f9b058750b402b.jpg",
+    "static/media/Webp.net-compress-image - 2020-06-06T140332.130.jpg": "/taqwa-web/static/media/Webp.net-compress-image - 2020-06-06T140332.130.88e676ac99dd3811a6ee.jpg",
+    "static/media/Webp (2).webp": "/taqwa-web/static/media/Webp (2).f1da7a880818da0bf824.webp",
+    "static/media/Webp (1).webp": "/taqwa-web/static/media/Webp (1).fd8fd17beeecb2b43439.webp",
+    "static/media/Webp (3).webp": "/taqwa-web/static/media/Webp (3).0ff2a5363e206839b412.webp",
+    "static/media/Webp.webp": "/taqwa-web/static/media/Webp.d355c407e911d3e35528.webp",
+    "static/media/whatsapp-svgrepo-com (1).svg": "/taqwa-web/static/media/whatsapp-svgrepo-com (1).790036bdea6e1fbdf7db3e0f2b420d47.svg",
+    "static/media/instagram-svgrepo-com (3).svg": "/taqwa-web/static/media/instagram-svgrepo-com (3).6b92d8ed893d7871cfe4479266c80a10.svg",
+    "static/media/facebook-svgrepo-com (1).svg": "/taqwa-web/static/media/facebook-svgrepo-com (1).afb9a72522eea05ce1a898f3be7e7511.svg",
+    "index.html": "/taqwa-web/index.html",
+    "main.2bea1219.css.map": "/taqwa-web/static/css/main.2bea1219.css.map",
+    "main.94233671.js.map": "/taqwa-web/static/js/main.94233671.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bea1219.css",
+    "static/js/main.94233671.js"
+  ]
+}
