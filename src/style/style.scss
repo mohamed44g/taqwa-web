@@ -1,0 +1,1221 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    // background-color: #eee;
+    overflow-x: hidden;
+}
+
+.Navpar {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+
+    .Links a{
+        font-size: 22px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .Links a:nth-of-type(2) {
+        margin: 0 40px 0 40px;
+    }
+
+    .button .btn{
+        width: 150px;
+        height: 40px;;
+        color: #0D1832;
+        border: 2px solid #D6AB27;
+        border-radius: 15px;
+        transition: .5s;
+        &:hover {
+            color: white;
+            background-color: #0D1832;
+            border: 0;
+        }
+    }
+
+    .Menu {
+        display: none;
+        padding: 5px;
+        -webkit-filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(356deg) brightness(82%) contrast(115%);
+        filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(356deg) brightness(82%) contrast(115%);
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #EEE; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    color: var(--home-text); /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  .side-content {
+    padding: 30px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+
+  
+  .side-width {
+    width: 80%;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+
+.Homepage {
+    .bg {
+        background-image: url('../images/398f1fc1-image-1.jpg');
+        width: 100%;
+        height: 1000px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .Home-content {
+        position: absolute;
+        top: 350px;
+        width: 100%;
+        text-align: center;
+
+        .Home-title h1 {
+            color: white;
+            font-weight: 600;
+            font-size: 70px;
+        }
+
+        .Home-des {
+            font-size: 25px;
+            color: white;
+            margin-top: 40px;
+            font-weight: 600;
+        }
+
+        .Home-btn {
+            width: 200px;
+            height: 45px;
+            background-color: #D6AB27;
+            color: #0D1832;
+            margin-top: 30px;
+            transition: .5s;
+
+            &:hover {
+                background-color: #0D1832;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.Prayer-time-title,.playlists-title,.About-us-title,.Books-title,.subscribe-title {
+    text-align: center;
+    color: #0D1832;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.subscribe-title {
+    margin-bottom: 10px;
+}
+
+.About-us-title  {
+    margin-top: 100px
+}
+
+
+.Prayer-time {
+    .Prayer-time-cards {
+        .prayer-card {
+            width: 18%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+
+            .prayer-card-title h4{
+                color: #D6AB27;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.playlists {
+    .playlists-cards {
+        row-gap: 70px;
+        .playlists-card {
+            width: 26%;
+            height: 420px;
+            position: relative;
+            border-radius: 7px;
+
+            .playlists-card-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    border-radius: 7px 7px 0 0;
+                }
+            }
+
+            .playlists-card-content {
+                margin-top: 15px;
+                padding-right: 15px;
+
+                .playlists-card-title {
+                    font-weight: 600;
+                }
+
+                .playlists-card-des {
+                    width: 90%;
+                }
+            }
+
+            .playlists-card-buttons {
+                position: absolute;
+                bottom: 12px;
+                padding-right: 15px;
+            }
+
+            .playlists-card-btn {
+                border: 1px solid #D6AB27;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: #D6AB27;
+                    color: #0D1832;
+                }
+            }
+        }
+    }
+}
+
+
+.Books {
+    .Books-cards {
+        row-gap: 70px;
+        .Books-card {
+            width: 26%;
+            height: 450px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 25px;
+            border-radius: 7px;
+
+            .Books-card-img img {
+                height: 210px;
+            }
+
+            .Books-card-bg {
+                width: 100%;
+                height: 260px;
+                background-color: #ededed;
+                position: absolute;
+                top: 0;
+                z-index: -50;
+                border-radius: 7px;
+            }
+
+            .Books-card-content {
+                margin-top: 15px;
+                padding-right: 15px;
+
+                .Books-card-title {
+                    font-weight: 500;
+                    margin-top: 20px;
+                }
+            }
+
+            .Books-card-buttons {
+                position: absolute;
+                bottom: 12px;
+                padding-right: 15px;
+            }
+
+            .Books-card-btn {
+                border: 1px solid #D6AB27;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: #D6AB27;
+                    color: #0D1832;
+                }
+            }
+        }
+    }
+}
+
+
+//   @keyframes zoomIn {
+//     from {
+//       opacity: 0;
+//       -webkit-transform: scale3d(0.3, 0.3, 0.3);
+//       transform: scale3d(0.3, 0.3, 0.3);
+//     }
+  
+//     50% {
+//       opacity: 1;
+//     }
+//   }
+//   .animate__zoomIn {
+//     -webkit-animation-name: zoomIn;
+//     animation-name: zoomIn;
+//   }
+
+.About-us {
+    .About-us-card {
+        width: 31%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+        .About-us-card-img img {
+            width: 80px;
+        }
+
+        .About-us-card-text {
+            margin-top: 15px;
+        }
+    }
+}
+
+.subscribe {
+    .subscribe-des {
+        text-align: center;
+    }
+    .subscribe-form {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        margin-top: 70px;
+        #subscribe-form-input {
+            height: 65px;
+            width: 95%;
+            position: absolute;
+            right: 0;
+            border-radius: 30px;
+            padding-left: 20px;
+            border: 0;
+            background-color: #fbf6e9;
+            &::placeholder {
+                color: #D6AB27;
+            }
+
+            &:focus {
+                outline: none !important;
+            }
+        }
+
+        .subscribe-form-btn {
+            height: 65px;
+            width: 150px;
+            background-color: #D6AB27;
+            border-radius: 30px;
+            position: absolute;
+            z-index: 5;
+        }
+    }
+}
+
+.footer {
+    .footer-bg {
+        margin-top: 200px;
+            background-image: url('../images/gr-stocks-YNJmz4O9py4-unsplash.jpg');
+            width: 100%;
+            height: 700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .footer-bg-text h4{
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            h4 {
+                color: white;
+                font-size: 30px;
+                font-weight: 500;
+            }
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .footer-logo {
+            height: 45px;
+            margin-top: -10px;
+        }
+    
+        .footer-icons {
+            margin-top: -15px;
+        }
+        .footer-icons img {
+            width: 55px;
+            margin: 0 5px;
+        }
+        #facebook {
+            width: 46px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.Azkar {
+    width: 50%;
+    margin: auto;
+
+    .azkar-card {
+        margin-top: 30px;
+
+        .azkar-card-text {
+            font-weight: 600;
+            font-family:Arial;
+            font-size: 20px;
+        }
+
+        .azkar-card-des {
+            margin-top: 30px;
+        }
+        .btn-azkar {
+            background-color: #D6AB27;
+            width: 80px;
+        }
+    }
+}
+
+.Azkar-page-links {
+    margin-top: 130px;
+}
+
+.Azkar-page-link,.Tafsser-page-link {
+    width: 22%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: 1s;
+
+    &:hover {
+        background-color: #D6AB27;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0D1832;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+
+.Tafsser-page-link{
+    width: 17%;
+    height: 160px;
+
+    a {
+        font-family:Arial;
+        font-weight: 600;
+    }
+}
+
+audio {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+select {
+    width: 80%;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.btn-submit {
+    background-color: #D6AB27;
+    color: #0D1832;
+    width: 15%;
+}
+
+.form {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width : 400px) {
+
+    .Homepage {
+        .bg {
+            background-image: url('../images/398f1fc1-image-1.jpg');
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+            .Home-content {
+                width: 95%;
+
+                .Home-title h1 {
+                    font-size: 40px;
+                }
+        
+                .Home-des {
+                    font-size: 20px;
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+
+
+    .Navpar {
+        .Links {
+            display: none;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .Menu {
+            display: block;
+        }
+    }
+
+    .About-us {
+        .About-us-card {
+            width: 80%;
+            margin: 0 auto 40px auto;
+        }
+    }
+
+    .Prayer-time {
+        .Prayer-time-cards {
+            .prayer-card {
+                width: 70%;
+                margin: 0 auto 40px auto;
+            }
+        }
+    }
+
+    .playlists {
+        .playlists-cards {
+            row-gap: 70px;
+            .playlists-card {
+                width: 70%;
+                height: 400px;
+                position: relative;
+                border-radius: 7px;
+            }
+        }
+    }
+    
+    
+    .Books {
+        position: relative;
+        .Books-cards {
+            row-gap: 70px;
+            .Books-card {
+                width: 65%;
+                height: 420px;
+                margin: 0 auto 0 auto;
+    
+                .Books-card-img img {
+                    height: 180px;
+                }
+    
+                .Books-card-bg {
+                    height: 230px;
+                }
+    
+                .Books-card-content {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .subscribe {
+        .subscribe-form {
+            width: 100%;
+            margin: auto;
+            margin-top: 70px;
+            #subscribe-form-input {
+                height: 50px;
+                width: 100%;
+            }
+    
+            .subscribe-form-btn {
+                height: 50px;
+                width: 120px;
+            }
+        }
+    }
+
+        .footer {
+            .footer-bg {
+                height: 250px;
+                background-size: contain;
+                display: flex;
+                gap: 5px;
+        
+                h4 {
+                    font-size: 16px;
+                }
+        }
+
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+}
+
+.Azkar-page-link,.Tafsser-page-link {
+    width: 60%;
+    height: 150px;
+
+    a {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+.Tafsser-page-link{
+    width: 35%;
+    height: 120px;
+
+    a {
+        font-family:Arial;
+        font-weight: 600;
+    }
+}
+
+.Azkar {
+    width: 80%;
+    margin-top: 20px;
+    .azkar-card {
+        .azkar-card-text {
+            font-size: 19px;
+        }
+
+        .btn-azkar {
+            width: 70px;
+        }
+    }
+}
+
+select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    width: 30%;
+}
+
+}
+
+@media only screen and (min-width: 400px) and (max-width : 600px) {
+    .Homepage {
+        .bg {
+            background-image: url('../images/398f1fc1-image-1 2.jpg');
+            width: 100%;
+            height: 900px;
+            background-size: cover;
+    
+        }
+
+        .Home-content {
+            .Home-title h1 {
+                font-size: 50px;
+            }
+    
+            .Home-des {
+                font-size: 22px;
+                padding: 0 10px 0 10px;
+            }
+        }
+    }
+
+    .Navpar {
+        .Links {
+            display: none;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .Menu {
+            display: block;
+        }
+    }
+
+    .About-us {
+        .About-us-card {
+            width: 70%;
+            margin: 0 auto 40px auto;
+        }
+    }
+
+    .Prayer-time {
+        .Prayer-time-cards {
+            .prayer-card {
+                width: 60%;
+                margin: 0 auto 40px auto;
+            }
+        }
+    }
+
+    .playlists {
+        .playlists-cards {
+            row-gap: 70px;
+            .playlists-card {
+                width: 55%;
+                height: 400px;
+                position: relative;
+                border-radius: 7px;
+            }
+        }
+    }
+    
+    
+    .Books {
+        position: relative;
+        .Books-cards {
+            row-gap: 70px;
+            .Books-card {
+                width: 55%;
+                height: 420px;
+                margin: 0 auto 0 auto;
+    
+                .Books-card-img img {
+                    height: 180px;
+                }
+    
+                .Books-card-bg {
+                    height: 230px;
+                }
+    
+                .Books-card-content {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .subscribe {
+        .subscribe-form {
+            width: 90%;
+            margin: auto;
+            margin-top: 70px;
+            #subscribe-form-input {
+                height: 50px;
+                width: 100%;
+            }
+    
+            .subscribe-form-btn {
+                height: 50px;
+                width: 120px;
+            }
+        }
+    }
+
+    .footer {
+        .footer-bg {
+            height: 350px;
+            background-size: contain;
+            display: flex;
+            gap: 5px;
+
+            h4 {
+                font-size: 20px;
+            }
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: -20px;
+    }
+}
+
+.Azkar-page-link,.Tafsser-page-link {
+    width: 30%;
+    height: 150px;
+
+    a {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.Azkar {
+    width: 80%;
+    margin-top: 20px;
+    .azkar-card {
+        .azkar-card-text {
+            font-size: 19px;
+        }
+
+        .btn-azkar {
+            width: 70px;
+        }
+    }
+}
+
+select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    width: 25%;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width : 768px) {
+    .Homepage {
+        .bg {
+            background-image: url('../images/398f1fc1-image-1.jpg');
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+            .Home-content {
+                width: 95%;
+                
+                .Home-title h1 {
+                    font-size: 55px;
+                }
+        
+                .Home-des {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .About-us {
+            .About-us-card {
+                width: 70%;
+                margin: 0 auto 40px auto;
+            }
+        }
+
+        .Prayer-time {
+            .Prayer-time-cards {
+                .prayer-card {
+                    width: 60%;
+                    margin: 0 auto 40px auto;
+                }
+            }
+        }
+
+        .playlists {
+            .playlists-cards {
+                row-gap: 70px;
+                .playlists-card {
+                    width: 45%;
+                    height: 400px;
+                    position: relative;
+                    border-radius: 7px;
+                }
+            }
+        }
+        
+        
+        .Books {
+            position: relative;
+            .Books-cards {
+                row-gap: 70px;
+                .Books-card {
+                    width: 45%;
+                    height: 420px;
+                    margin: 0 auto 0 auto;
+        
+                    .Books-card-img img {
+                        height: 180px;
+                    }
+        
+                    .Books-card-bg {
+                        height: 230px;
+                    }
+        
+                    .Books-card-content {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .subscribe {
+            .subscribe-form {
+                width: 90%;
+                margin: auto;
+                margin-top: 70px;
+                #subscribe-form-input {
+                    height: 50px;
+                    width: 100%;
+                }
+        
+                .subscribe-form-btn {
+                    height: 50px;
+                    width: 120px;
+                }
+            }
+        }
+
+    .Navpar {
+        .Links {
+            display: none;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .Menu {
+            display: block;
+        }
+    }
+
+    .footer {
+        .footer-bg {
+            height: 500px;
+            background-size: contain;
+            display: flex;
+            gap: 5px;
+
+            h4 {
+                font-size: 20px;
+            }
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: -20px;
+    }
+}
+
+.Azkar-page-links {
+    display: flex;
+    justify-content: center;
+}
+
+.Azkar-page-link,.Tafsser-page-link {
+    width: 40%;
+    height: 150px;
+
+    a {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+.Azkar {
+    width: 70%;
+    margin-top: 20px;
+    .azkar-card {
+        .azkar-card-text {
+            font-size: 19px;
+        }
+
+        .btn-azkar {
+            width: 70px;
+        }
+    }
+}
+
+select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    width: 25%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width : 996px) {
+    .Homepage {
+        .bg {
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+            .Home-content {
+                width: 95%;
+                
+                .Home-title h1 {
+                    font-size: 60px;
+                }
+        
+                .Home-des {
+                    font-size: 22px;
+                }
+            }
+        }
+
+
+        .About-us {
+            .About-us-card {
+                width: 60%;
+                margin: 0 auto 40px auto;
+            }
+        }
+
+        .Prayer-time {
+            .Prayer-time-cards {
+                .prayer-card {
+                    width: 35%;
+                    margin: 0 auto 40px auto;
+                }
+            }
+        }
+
+        .playlists {
+            .playlists-cards {
+                row-gap: 70px;
+                .playlists-card {
+                    width: 35%;
+                    height: 400px;
+                    position: relative;
+                    border-radius: 7px;
+                }
+            }
+        }
+        
+        
+        .Books {
+            position: relative;
+            .Books-cards {
+                row-gap: 70px;
+                .Books-card {
+                    width: 35%;
+                    height: 420px;
+                    margin: 0 auto 0 auto;
+        
+                    .Books-card-img img {
+                        height: 180px;
+                    }
+        
+                    .Books-card-bg {
+                        height: 230px;
+                    }
+        
+                    .Books-card-content {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .subscribe {
+            .subscribe-form {
+                width: 75%;
+                margin: auto;
+                margin-top: 70px;
+                #subscribe-form-input {
+                    height: 50px;
+                    width: 100%;
+                }
+        
+                .subscribe-form-btn {
+                    height: 50px;
+                    width: 120px;
+                }
+            }
+        }
+
+    .Navpar {
+        .Links {
+            display: none;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .Menu {
+            display: block;
+        }
+    }
+
+    .footer {
+        .footer-bg {
+            height: 600px;
+            background-size: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+
+            h4 {
+                font-size: 20px;
+            }
+    }
+}
+
+.Azkar-page-link,.Tafsser-page-link {
+    width: 30%;
+    height: 150px;
+
+    a {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+.Azkar {
+    width: 70%;
+    margin-top: 20px;
+    .azkar-card {
+        .azkar-card-text {
+            font-size: 19px;
+        }
+
+        .btn-azkar {
+            width: 70px;
+        }
+    }
+}
+
+select {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    width: 15%;
+}
+}
+
+
+@media only screen and (min-width: 996px) and (max-width : 1300px) {
+    .Homepage {
+        .bg {
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+            .Home-content {
+                width: 95%;
+                
+                .Home-title h1 {
+                    font-size: 70px;
+                }
+        
+                .Home-des {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .Azkar-page-link,.Tafsser-page-link {
+            width: 25%;
+            height: 150px;
+        
+            a {
+                font-size: 18px;
+                width: 90%;
+                text-align: center;
+            }
+        }
+
+        .Azkar {
+            width: 60%;
+            margin-top: 20px;
+            .azkar-card {
+                .azkar-card-text {
+                    font-size: 19px;
+                }
+        
+                .btn-azkar {
+                    width: 70px;
+                }
+            }
+        }
+
+        select {
+            width: 75%;
+            margin-bottom: 20px;
+        }
+        
+        .btn-submit {
+            width: 15%;
+        }
+}
