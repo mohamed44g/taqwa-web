@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/taqwa-web/static/css/main.2bea1219.css",
-    "main.js": "/taqwa-web/static/js/main.bdb06670.js",
-    "static/media/gr-stocks-YNJmz4O9py4-unsplash.jpg": "/taqwa-web/static/media/gr-stocks-YNJmz4O9py4-unsplash.508ae286d09d02ddafd7.jpg",
-    "static/media/22170.jpg": "/taqwa-web/static/media/22170.d32f28369928dc6c712f.jpg",
+    "main.css": "/taqwa-web/static/css/main.d2b91a57.css",
+    "main.js": "/taqwa-web/static/js/main.b3d6170f.js",
     "static/media/398f1fc1-image-1.jpg": "/taqwa-web/static/media/398f1fc1-image-1.e21a94ad095c0d929c09.jpg",
+    "static/media/gr-stocks-YNJmz4O9py4-unsplash. 1.jpg": "/taqwa-web/static/media/gr-stocks-YNJmz4O9py4-unsplash.bb13c573b78716d14fcb 1.c369c544677416b5a2a1.jpg",
     "static/media/398f1fc1-image-1 2.jpg": "/taqwa-web/static/media/398f1fc1-image-1 2.9f7f74f9b058750b402b.jpg",
+    "static/media/22171.jpg": "/taqwa-web/static/media/22171.5844311921303aa593d6.jpg",
     "static/media/Webp.net-compress-image - 2020-06-06T140332.130.jpg": "/taqwa-web/static/media/Webp.net-compress-image - 2020-06-06T140332.130.88e676ac99dd3811a6ee.jpg",
     "static/media/Webp (2).webp": "/taqwa-web/static/media/Webp (2).f1da7a880818da0bf824.webp",
     "static/media/Webp (1).webp": "/taqwa-web/static/media/Webp (1).fd8fd17beeecb2b43439.webp",
@@ -15,11 +15,11 @@
     "static/media/instagram-svgrepo-com (3).svg": "/taqwa-web/static/media/instagram-svgrepo-com (3).6b92d8ed893d7871cfe4479266c80a10.svg",
     "static/media/facebook-svgrepo-com (1).svg": "/taqwa-web/static/media/facebook-svgrepo-com (1).afb9a72522eea05ce1a898f3be7e7511.svg",
     "index.html": "/taqwa-web/index.html",
-    "main.2bea1219.css.map": "/taqwa-web/static/css/main.2bea1219.css.map",
-    "main.bdb06670.js.map": "/taqwa-web/static/js/main.bdb06670.js.map"
+    "main.d2b91a57.css.map": "/taqwa-web/static/css/main.d2b91a57.css.map",
+    "main.b3d6170f.js.map": "/taqwa-web/static/js/main.b3d6170f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bea1219.css",
-    "static/js/main.bdb06670.js"
+    "static/css/main.d2b91a57.css",
+    "static/js/main.b3d6170f.js"
   ]
 }
